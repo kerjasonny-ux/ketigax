@@ -1,0 +1,21 @@
+paths:
+  static: public
+  uploads: public/uploads
+timezone: Asia/Singapore
+markdown:
+  engine: commonmark
+  options:
+    gfm: true
+collections_config:
+  pages:
+    path: src/pages
+    icon: wysiwyg
+  source:
+    path: ''
+    icon: package_2
+  data_post:
+    path: src/data/post
+    icon: data_alert
+  src:
+    path: src
+    icon: abc
